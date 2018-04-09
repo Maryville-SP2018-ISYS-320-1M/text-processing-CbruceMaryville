@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s):Clayton Bruce
+	Date: 4/8/2018
 */
 
 import java.util.Scanner;
@@ -23,8 +23,8 @@ public class P5_AvgToTwoPlaces {
 			
 			sum += nextInputValue;
 		}
-		
-		System.out.println("The average value is: " + sum / numbers);
+		//Utilize the features of printf   and   "%.2f"
+		System.out.printf("The average value is: " + ("%.2f"),(sum / numbers));
 	}
 
 }
