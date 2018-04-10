@@ -12,7 +12,7 @@ public class P4_LongestInputString {
 		Scanner input = new Scanner(System.in );
 		System.out.print("How many words will you enter? ");
 		int numOfWords = input.nextInt();
-		//CONFUSED ON WHY THIS ISNT WORKING, 
+		
 		String result = getLongestWord(input, numOfWords);
 		System.out.println(result);
 		
