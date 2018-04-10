@@ -14,9 +14,8 @@ set your entered string value
 loop through your string see if any of the characters match
 if they do 
 count ++
-
-
-PROBLEM- IT ONLY WORKS FOR ONE WORD STRINGS, When a space is introduced it stops registering
+ 
+ FIXED MY ISSUE IN CLASS ON 4/9/2018
  
  
  
@@ -34,7 +33,9 @@ public class P2_CountAllEs {
 		
 	
 		System.out.print("Enter a string for me (will search for e's) : ");
-		enteredString = input.next();
+		//When using scanners make sure you not using next use nextline FOR THE WHOLE LINE OF TEXT
+		enteredString = input.nextLine();
+		
 		
 		int count=0;
 		for (int i = 0; i< enteredString.length(); i ++) {
